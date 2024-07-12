@@ -1,0 +1,24 @@
+total=0
+while True:
+
+    print("burguer queen menu principal")
+    print("1-menu")
+    print("2-menu")
+    print("3-menu")
+    print("4-salir macaquiño")
+    menu=int(input())
+    if menu==1:
+       print("huevos revueltos y licuado de platanos $1500")
+       cantidad= int(input ("ingrese cantidad: "))
+       total=total+1500*cantidad
+    if menu==2:
+        print("hamguesa con tocino y refresco $2500")
+        cantidad= int(input ("ingrese cantidad: "))
+        total=total+1500*cantidad
+    if menu==3:
+        print("licuado de macaco $100000000")
+        cantidad= int(input ("ingrese cantidad: "))
+        total=total+100000000*cantidad
+    if menu==4:
+        print("saliendo del menu")
+        print(f"su total a pagar es {total}")
